@@ -7,7 +7,7 @@ function connect(){
         useUnifiedTopology: true
         
     }
-    mongoose.connect("mongodb+srv://varunjoshi12363:IFdvv6YPXJXWTZlP@cluster0.xn3xyfw.mongodb.net/project",connectionParams)
+    mongoose.connect("mongodb+srv://username:password@cluster0.xn3xyfw.mongodb.net/project",connectionParams)
         .then( () => {
             console.log('Connected to database ')
         })
